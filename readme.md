@@ -7,6 +7,11 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Postman collection
+
+You can get the update collection from here. I have made a small change in payload key name
+https://www.getpostman.com/collections/7ea9e50f514c11464aaf
+
 ## Setup Project
 
 1) Take the clone
@@ -16,12 +21,19 @@
 5) RUN ```docker exec pipedrive-task_app_1 composer install```
 6) RUN ```docker exec pipedrive-task_app_1 php artisan migrate```
 
+## Up Docker containers
+
+```./vessel start```
+
 ## Down docker containers
 
 ```./vessel down```
 
-## Up Docker containers
+## Run Tests
 
-```./vessel start```
+I have used In-memory to run test cases and refresh data every time cases started.
+
+```docker exec -it pipedrive-task_app_1 ./vendor/bin/phpunit ``
+
 
 
