@@ -10,10 +10,11 @@
 ## Setup Project
 
 1) Take the clone
-2) ```bash vessel init```
-3) RUN ```MYSQL_PORT={ANY_PORT} ./vessel start```
-4) Run ```docker exec pipedrive-task_app_1 composer install```
-5) Run ```docker exec pipedrive-task_app_1 php artisan migrate```
+2) RUN ```cp .env.example .env```
+3) ```bash vessel init```
+4) RUN ```MYSQL_PORT={ANY_PORT} ./vessel start```
+5) RUN ```docker exec pipedrive-task_app_1 composer install```
+6) RUN ```docker exec pipedrive-task_app_1 php artisan migrate```
 
 ## Down docker containers
 
