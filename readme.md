@@ -15,4 +15,8 @@
 4) Run docker exec pipedrive-task_app_1 composer install
 5) Run docker exec pipedrive-task_app_1 php artisan migrate
 
+## Down Project
+
+```./vessel down```
+
 
