@@ -33,7 +33,7 @@ https://www.getpostman.com/collections/7ea9e50f514c11464aaf
 
 I have used In-memory to run test cases and refresh data every time cases started.
 
-```docker exec -it pipedrive-task_app_1 ./vendor/bin/phpunit ``
+```docker exec -it pipedrive-task_app_1 ./vendor/bin/phpunit ```
 
 
 
