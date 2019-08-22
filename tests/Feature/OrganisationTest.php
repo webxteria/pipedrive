@@ -196,7 +196,7 @@ class OrganisationTest extends TestCase
     /** @test */
     public function it_should_response_with_array_get_organisation()
     {
-        factory(Organisation::class, 100000)->create([
+        factory(Organisation::class, 5)->create([
             'parent_id' => factory(Organisation::class)->create(),
         ]);
 
